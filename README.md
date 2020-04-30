@@ -1,0 +1,3 @@
+# BoredAPI
+
+## How to use
