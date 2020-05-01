@@ -46,6 +46,7 @@ class Activity(models.Model):
         db_index=True
     )
     price = models.DecimalField(
+        db_index=True,
         max_digits=3,
         decimal_places=2,
         validators=(

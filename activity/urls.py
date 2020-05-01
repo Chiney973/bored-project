@@ -7,7 +7,7 @@ from activity.api_views import (
     ActivityTypesView,
 )
 from activity.views import (
-    index,
+    random_activity,
     add_activity,
 )
 
@@ -22,6 +22,6 @@ api_urlpatterns = [
 ]
 
 urlpatterns = [
-    path("", index, name="index"),
+    path("", random_activity, name="index"),
     path("add-activity", add_activity, name="add-activity")
 ]

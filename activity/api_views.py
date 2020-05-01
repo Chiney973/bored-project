@@ -20,13 +20,18 @@ class ActivitiesViewSet(viewsets.ModelViewSet):
 class RandomActivityView(APIView):
 
     def filter(self, request, queryset):
-        type = request.query_params.get("type")
-        if type:
-            queryset = queryset.filter(type=type)
+        _type = request.query_params.get("type")
+        if _type:
+            queryset = queryset.filter(type=_type)
 
         participants = request.query_params.get("participants")
         if participants:
             queryset = queryset.filter(participants=participants)
+
+        price = request.query_params.get("price")
+        if price:
+            queryset = queryset.filter(price=price)
+        
         return queryset
 
     def get(self, request):

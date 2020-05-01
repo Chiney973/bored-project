@@ -1,10 +1,12 @@
-export default Vue.component('RandomActivity', {
-    name: 'random-activity',
+new Vue({
+    el: '#random-activity',
+    delimiters: [ "[[", "]]" ],
     data: function() {
         return {
             filters: {
                 participants: "",
                 type: "",
+                price: "",
             },
             activity: null,
             activityTypes: [],
@@ -24,7 +26,7 @@ export default Vue.component('RandomActivity', {
             this.error = "";
         },
         forgeFiltersQueryString() {
-            return `?participants=${this.filters.participants}&type=${this.filters.type}`;
+            return `?participants=${this.filters.participants}&type=${this.filters.type}&price=${this.filters.price}`;
         },
         async fetchRandomActivity() {
             this.resetDataActivityAndError();
@@ -47,7 +49,7 @@ export default Vue.component('RandomActivity', {
                 };
             } catch (error) {
                 if (error.response.status == 404) {
-                    this.error = "Pas d'activité trouvé :/ Essayez de changer les filtres ?"
+                    this.error = "Je n'ai pas trouvé d'activité :(... En changeant les filtres vous aurez peut être plus de chance :)"
                 } else {
                     throw error;
                 }
@@ -56,35 +58,7 @@ export default Vue.component('RandomActivity', {
         resetFilters() {
             this.filters.type = "";
             this.filters.participants = "";
+            this.filters.price = "";
         }
     },
-    template: `
-        <div>
-            <div>
-                <label>Nombre de participants:</label>
-                <input v-model=filters.participants placeholder="Peu importe"></input>
-                <label>Type</label>
-                <select v-model=filters.type>
-                    <option
-                        v-for="type in activityTypes"
-                        :key=type
-                        :value=type                        
-                    >
-                        {{ type }}
-                    </option>
-                </select>
-                <button @click=resetFilters>Raffraichir les filtres</button>
-            </div>
-            <button @click=fetchRandomActivity>Je tente ma chance</button>
-            <div v-if="error">{{error}}</div>
-            <div v-if=activity>
-            	<div>Activité: {{ activity.activity }}</div>
-            	<div>Participants: {{ activity.participants }}</div>
-				<div>Catégorie: {{ activity.type }}</div>
-				<div>Accéssibilité: {{activity.accessibility}}</div>
-				<div>Prix: {{activity.price}}</div>
-				<div v-if=activity.link>Lien: {{activity.link}}</div>
-            </div>
-        </div>
-    `
 });
