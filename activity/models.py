@@ -40,8 +40,11 @@ class Activity(models.Model):
             MaxValueValidator(1.0),
         )
     )
-    type = models.CharField(max_length=255)
-    participants = models.IntegerField(validators=(MinValueValidator,))
+    type = models.CharField(max_length=255, db_index=True)
+    participants = models.IntegerField(
+        validators=(MinValueValidator,),
+        db_index=True
+    )
     price = models.DecimalField(
         max_digits=3,
         decimal_places=2,
