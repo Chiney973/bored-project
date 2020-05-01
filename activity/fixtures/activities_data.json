@@ -1,0 +1,1502 @@
+[
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Watch the sunset or the sunrise",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 19413
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Make a new friend",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1000000
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.15",
+         "description" : "Wash your car",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.05",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 1017771
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.40",
+         "description" : "Play a game of tennis with a friend",
+         "link" : "",
+         "participants" : 2,
+         "price" : "0.10",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1093640
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Pull a harmless prank on one of your friends",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1288934
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Mow your neighbor's lawn",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 1303906
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.50",
+         "description" : "Volunteer at a local animal shelter",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 1382389
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Play a game of Monopoly",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.20",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1408058
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Hold a yard sale",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1432113
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Find a charity and donate to it",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.40",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 1488053
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Configure two-factor authentication on your accounts",
+         "link" : "https://en.wikipedia.org/wiki/Multi-factor_authentication",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 1572120
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Learn how to make an Alexa skill",
+         "link" : "https://developer.amazon.com/en-US/docs/alexa/custom-skills/steps-to-build-a-custom-skill.html",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 1592381
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Have a football scrimmage with some friends",
+         "link" : "",
+         "participants" : 8,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1638604
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.02",
+         "description" : "Learn to write with your nondominant hand",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 1645485
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.50",
+         "description" : "Start a collection",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 1718657
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Write a note of appreciation to someone",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 1770521
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Cook something together with someone",
+         "link" : "",
+         "participants" : 2,
+         "price" : "0.30",
+         "type" : "cooking"
+      },
+      "model" : "activity.activity",
+      "pk" : 1799120
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Volunteer at your local food pantry",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 1878070
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.35",
+         "description" : "Start a garden",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.30",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 1934228
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Write a list of things you are grateful for",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxing"
+      },
+      "model" : "activity.activity",
+      "pk" : 2062010
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Take a spontaneous road trip with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.20",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 2085321
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Go to a concert with local artists with some friends",
+         "link" : "",
+         "participants" : 3,
+         "price" : "0.40",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 2211716
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.32",
+         "description" : "Explore the nightlife of your city",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 2237769
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.08",
+         "description" : "Make a couch fort",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 2352669
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.50",
+         "description" : "Draft your living will",
+         "link" : "https://www.investopedia.com/terms/l/livingwill.asp",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 2360432
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Shred old documents you don't need anymore",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 2430066
+   },
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Look at pictures and videos of cute animals",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 2565076
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Take a bubble bath",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.15",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 2581372
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Have a jam session with your friends",
+         "link" : "",
+         "participants" : 5,
+         "price" : "0.10",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 2715253
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.40",
+         "description" : "Learn the Chinese erhu",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.60",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 2742452
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.08",
+         "description" : "Clean out your car",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 2896176
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.05",
+         "description" : "Learn how to fold a paper crane",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 3136036
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Listen to your favorite album",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.08",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 3136729
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.12",
+         "description" : "Create a personal website",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 3141417
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Bake a pie with some friends",
+         "link" : "",
+         "participants" : 3,
+         "price" : "0.30",
+         "type" : "cooking"
+      },
+      "model" : "activity.activity",
+      "pk" : 3141592
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.60",
+         "description" : "Learn to play a new instrument",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.55",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 3192099
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Have a photo session with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.05",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 3305912
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Read a formal research paper on an interesting subject",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 3352474
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Mow your lawn",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 3590127
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.60",
+         "description" : "Learn the periodic table",
+         "link" : "https://en.wikipedia.org/wiki/Periodic_table",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 3621244
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Learn Morse code",
+         "link" : "https://en.wikipedia.org/wiki/Morse_code",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 3646173
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Make homemade ice cream",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.20",
+         "type" : "cooking"
+      },
+      "model" : "activity.activity",
+      "pk" : 3818400
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Volunteer and help out at a senior center",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 3920096
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.25",
+         "description" : "Learn Express.js",
+         "link" : "https://expressjs.com/",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 3943506
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Learn Kotlin",
+         "link" : "https://kotlinlang.org/",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 3950821
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Organize your pantry",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 3954882
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Write a thank you letter to an influential person in your life",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 4101229
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Donate to your local food bank",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.50",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 4150284
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Go for a walk",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 4286250
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Play a volleyball match with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 4306710
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Make a budget",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 4379552
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Go see a Broadway production",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.80",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 4448913
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.40",
+         "description" : "Go to a concert with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.60",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 4558850
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.90",
+         "description" : "Do yoga",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 4688012
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Learn to greet someone in a new language",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 4704256
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Listen to a new music genre",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 4708863
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.05",
+         "description" : "Pick up litter around your favorite park",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 4894697
+   },
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Match your storage containers with their lids",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 4940907
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Find a DIY to do",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.40",
+         "type" : "diy"
+      },
+      "model" : "activity.activity",
+      "pk" : 4981819
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Write a song",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 5188388
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.70",
+         "description" : "Visit a nearby museum",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.20",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 5490351
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Play a video game",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 5534113
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.15",
+         "description" : "Catch up with a friend over a lunch date",
+         "link" : "",
+         "participants" : 2,
+         "price" : "0.20",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 5590133
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Start a band",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.30",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 5675880
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.25",
+         "description" : "Learn a new programming language",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 5881028
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Binge watch a trending series",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.20",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 5881647
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.05",
+         "description" : "Make a to-do list for your week",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 5920481
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Take your cat on a walk",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.02",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 5940465
+   },
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Look at your finances and find one way to save money",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 5977626
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Text a friend you haven't talked to in a long time",
+         "link" : "",
+         "participants" : 2,
+         "price" : "0.05",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 6081071
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Take a nap",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 6184514
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.15",
+         "description" : "Rearrange and organize your room",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 6197243
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Surprise your significant other with something considerate",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 6204657
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Go to a music festival with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.40",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 6482790
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.05",
+         "description" : "Learn a new recipe",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "cooking"
+      },
+      "model" : "activity.activity",
+      "pk" : 6553978
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Invite some friends over for a game night",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 6613428
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Learn the NATO phonetic alphabet",
+         "link" : "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 6706598
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Learn how to write in shorthand",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 6778219
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.05",
+         "description" : "Think of a new business idea",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 6808057
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.90",
+         "description" : "Start a webinar on a topic of your choice",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 6826029
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Fix something that's broken in your house",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "diy"
+      },
+      "model" : "activity.activity",
+      "pk" : 6925988
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.25",
+         "description" : "Make a simple musical instrument",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.40",
+         "type" : "music"
+      },
+      "model" : "activity.activity",
+      "pk" : 7091374
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Start a book you've never gotten around to reading",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 7114122
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Watch a Khan Academy lecture on a subject of your choosing",
+         "link" : "https://www.khanacademy.org/",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 7154873
+   },
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Organize your dresser",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 7556665
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Contribute code or a monetary donation to an open-source software project",
+         "link" : "https://github.com/explore",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 7687030
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Fill out a basketball bracket",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 7806284
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Draw something interesting",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8033599
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Prepare a dish from a foreign culture",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.20",
+         "type" : "cooking"
+      },
+      "model" : "activity.activity",
+      "pk" : 8061754
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Watch a classic movie",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8081693
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Make tie dye shirts",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.20",
+         "type" : "diy"
+      },
+      "model" : "activity.activity",
+      "pk" : 8092359
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Bake pastries for you and your neighbor",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.40",
+         "type" : "cooking"
+      },
+      "model" : "activity.activity",
+      "pk" : 8125168
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Explore a park you have never been to before",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8159356
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.90",
+         "description" : "Organize your basement",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 8203595
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.70",
+         "description" : "Visit your past teachers",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 8238918
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.70",
+         "description" : "Learn how to use an Arduino",
+         "link" : "https://en.wikipedia.org/wiki/Arduino",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 8264223
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Do something nice for someone you care about",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 8321894
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Conquer one of your fears",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8344539
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Start a blog for something you're passionate about",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.05",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8364626
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Learn origami",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.20",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 8394738
+   },
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Do a jigsaw puzzle",
+         "link" : "https://en.wikipedia.org/wiki/Jigsaw_puzzle",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8550768
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.05",
+         "description" : "Have a paper airplane contest with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.02",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 8557562
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.70",
+         "description" : "Play basketball with a group of friends",
+         "link" : "",
+         "participants" : 5,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 8683473
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Write a poem",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 8688620
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Learn to sew on a button",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.05",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 8731971
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Start a daily journal",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 8779876
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Do something you used to do as a kid",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 8827573
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Go stargazing",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 8832605
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.80",
+         "description" : "Memorize a favorite quote or poem",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 9008639
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Clean out your closet and donate the clothes you've outgrown",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "charity"
+      },
+      "model" : "activity.activity",
+      "pk" : 9026787
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.35",
+         "description" : "Go to a karaoke bar with some friends",
+         "link" : "",
+         "participants" : 4,
+         "price" : "0.50",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 9072906
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Compliment someone",
+         "link" : "",
+         "participants" : 2,
+         "price" : "0.00",
+         "type" : "social"
+      },
+      "model" : "activity.activity",
+      "pk" : 9149470
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.15",
+         "description" : "Watch a movie you'd never usually watch",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.15",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 9212950
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Learn about a distributed version control system such as Git",
+         "link" : "https://en.wikipedia.org/wiki/Distributed_version_control",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 9303608
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Clean out your refrigerator",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 9324336
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Create or update your resume",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 9364041
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.20",
+         "description" : "Create and follow a savings plan",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 9366464
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Learn how the internet works",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 9414706
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Learn and play a new card game",
+         "link" : "https://www.pagat.com",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "recreational"
+      },
+      "model" : "activity.activity",
+      "pk" : 9660022
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Organize a cluttered drawer",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 9714586
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.10",
+         "description" : "Study a foreign language",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 9765530
+   },
+   {
+      "fields" : {
+         "accessibility" : "1.00",
+         "description" : "Sit in the dark and listen to your favorite music with no distractions",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 9908721
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.30",
+         "description" : "Learn how to make a website",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.10",
+         "type" : "education"
+      },
+      "model" : "activity.activity",
+      "pk" : 9924423
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Give your pet ten minutes of focused attention",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "relaxation"
+      },
+      "model" : "activity.activity",
+      "pk" : 9937387
+   },
+   {
+      "fields" : {
+         "accessibility" : "0.00",
+         "description" : "Resolve a problem you've been putting off",
+         "link" : "",
+         "participants" : 1,
+         "price" : "0.00",
+         "type" : "busywork"
+      },
+      "model" : "activity.activity",
+      "pk" : 9999999
+   }
+]
