@@ -14,6 +14,17 @@ new Vue({
         }
     },
     async created() {
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const url = urlParams.get("url");
+        if (url) {
+            const activity = await axios.get(url).then(response => {
+                return response.data;
+            })
+            this.setActivity(activity);
+        }
+
         const data = await axios.get("/api/activity-types/")
             .then(response => {
                 return response.data
@@ -39,14 +50,7 @@ new Vue({
                         return response.data;
                     })
 
-                this.activity = {
-                    activity: data.activity,
-                    participants: data.participants,
-                    type: data.type,
-                    accessibility: data.accessibility,
-                    price: data.price,
-                    link: data.link,
-                };
+                this.setActivity(data);
             } catch (error) {
                 if (error.response.status == 404) {
                     this.error = "Je n'ai pas trouvé d'activité :(... En changeant les filtres vous aurez peut être plus de chance :)"
@@ -54,6 +58,16 @@ new Vue({
                     throw error;
                 }
             }
+        },
+        setActivity(data) {
+            this.activity = {
+                activity: data.activity,
+                participants: data.participants,
+                type: data.type,
+                accessibility: data.accessibility,
+                price: data.price,
+                link: data.link,
+            };
         },
         resetFilters() {
             this.filters.type = "";

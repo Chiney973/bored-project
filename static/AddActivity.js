@@ -36,7 +36,7 @@ new Vue({
                 });
 
                 const url = encodeURI(response.url);
-                window.location.href = `/?id=${url}`
+                window.location.href = `/?url=${url}`
                 
             } catch (error) {
                 this.error = "Echec de l'ajout de l'activité :/"
