@@ -18,6 +18,12 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
+
+Let's load some data from fixture to make it more fun
+```
+python manage.py loaddata activities_data
+```
+
 ## API
 
 Some useful endpoint examples if you want play with the API
