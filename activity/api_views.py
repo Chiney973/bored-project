@@ -1,11 +1,15 @@
 from django.http import Http404
 from rest_framework import viewsets
 from rest_framework.views import APIView
+from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 
 from activity import RandomOnEmptyQuerySetException
 from activity.models import Activity
-from activity.serializers import ActivitySerializer
+from activity.serializers import (
+    ActivitySerializer,
+    ActivityTypeSerializer,
+)
 
 
 class ActivitiesViewSet(viewsets.ModelViewSet):
@@ -33,3 +37,10 @@ class RandomActivityView(APIView):
             raise Http404
         serializer = ActivitySerializer(activity, context={"request": request})
         return Response(serializer.data)
+
+
+class ActivityTypesView(ListAPIView):
+    # Activity.objects.all().distinct("type") if use of postgresql
+    queryset = Activity.objects.values("type").distinct()
+    serializer_class = ActivityTypeSerializer
+    pagination_class = None

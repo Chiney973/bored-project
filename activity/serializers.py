@@ -20,3 +20,9 @@ class ActivitySerializer(serializers.HyperlinkedModelSerializer):
             "link",
             "key",
         )
+
+
+class ActivityTypeSerializer(serializers.BaseSerializer):
+
+    def to_representation(self, obj):
+        return obj['type']
