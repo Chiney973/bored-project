@@ -43,5 +43,10 @@
 
     {% block vuefile %}
     {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/vue-toast-notification"></script>
+    <link href="https://cdn.jsdelivr.net/npm/vue-toast-notification/dist/theme-default.css" rel="stylesheet">
+    <script>
+      Vue.use(VueToast, {position: 'top'});
+    </script>
 </body>
 </html>

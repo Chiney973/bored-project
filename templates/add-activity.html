@@ -3,32 +3,76 @@
 {% block content %}
 <div id="add-activity">
     <form @submit.prevent=createActivity>
-        <small v-if="error"> [[ error ]] </small>
         <div class="form-group">
             <label for="activity-name">Activité</label>
-            <input id="activity-name" class="form-control" placeholder="Description de l'activité" v-model=form.activity>
+            <input
+                id="activity-name"
+                class="form-control"
+                placeholder="Description de l'activité"
+                v-model=form.activity
+                required
+            >
         </div>
         <div class="form-group">
-            <label for="activity-accessibility">Accéssibilité</label>
-            <span>[[ form.accessibility ]]</span>
-            <input id="activity-accessibility" class="form-control" type="range" min="0" max="1" step="0.01" v-model=form.accessibility />
+            <div class="d-flex justify-content-between">
+                <label for="activity-accessibility">Accéssibilité</label>
+                <span>[[ form.accessibility ]]</span>
+            </div>
+            <input
+                id="activity-accessibility"
+                class="form-control"
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                v-model=form.accessibility
+                required
+            />
         </div>
         <div class="form-group">
             <label for="activity-type">Type</label>
-            <input id="activity-type" class="form-control" placeholder="Catégorie de l'activité" v-model=form.type>
+            <input
+                id="activity-type"
+                class="form-control"
+                placeholder="Catégorie de l'activité"
+                v-model=form.type
+                required
+            >
         </div>
         <div class="form-group">
             <label for="activity-participants">Participants</label>
-            <input id="activity-participants" class="form-control" placeholder="Nombre de participants" v-model=form.participants>
+            <input
+                id="activity-participants"
+                class="form-control"
+                placeholder="Nombre de participants"
+                v-model=form.participants
+                required
+            >
         </div>
         <div class="form-group">
-            <label for="activity-price">Prix</label>
-            <span>[[ form.price ]]</span>
-            <input id="activity-price" class="form-control" type="range" min="0" max="1" step="0.01" v-model=form.price />
+            <div class="d-flex justify-content-between">
+                <label for="activity-price">Prix</label>
+                <span>[[ form.price ]]</span>
+            </div>
+            <input
+                id="activity-price"
+                class="form-control"
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                v-model=form.price
+                required
+            />
         </div>
         <div class="form-group">
             <label for="activity-link">Lien</label>
-            <input id="activity-link" class="form-control" placeholder="Lien" v-model=form.link>
+            <input
+                id="activity-link"
+                class="form-control"
+                placeholder="Lien"
+                v-model=form.link
+            >
         </div>
         <button type="submit" class="btn btn-primary">Ajouter</button>
     </form>            

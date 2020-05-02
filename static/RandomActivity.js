@@ -14,7 +14,6 @@ new Vue({
         }
     },
     async created() {
-
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const url = urlParams.get("url");
@@ -53,7 +52,7 @@ new Vue({
                 this.setActivity(data);
             } catch (error) {
                 if (error.response.status == 404) {
-                    this.error = "Je n'ai pas trouvé d'activité :(... En changeant les filtres vous aurez peut être plus de chance :)"
+                    Vue.$toast.error("Je n'ai pas trouvé d'activité :(... En changeant les filtres tu auras peut être plus de chance :)");
                 } else {
                     throw error;
                 }

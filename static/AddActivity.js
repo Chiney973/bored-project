@@ -25,6 +25,7 @@ new Vue({
             return cleanedForm;
         },
         async createActivity() {
+            
             const data = this.cleanForm();
             try {
                 const response = await axios.post(
@@ -39,7 +40,7 @@ new Vue({
                 window.location.href = `/?url=${url}`
                 
             } catch (error) {
-                this.error = "Echec de l'ajout de l'activité :/"
+                Vue.$toast.error("Echec de l'ajout de l'activité :/ As tu bien rempli le formulaire ?");
                 console.log(error.response);
             }
         }
