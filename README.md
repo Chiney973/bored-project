@@ -28,7 +28,7 @@ python manage.py loaddata activities_data
 
 Some useful endpoint examples if you want play with the API
 
-Let's assume you are it locally, therefore endpoint root is 127.0.0.1 :)
+Let's assume you are running it locally with default options, therefore hostname is 127.0.0.1 :)
 
 To fetch list of activities
 
@@ -70,12 +70,19 @@ To fetch and activity randomly but with a precise activity type
 curl http://127.0.0.1:8000/api/random-activity?type=diy
 ```
 
-To fetch all activity disctinct types
+To fetch all activity types available (a new activity type is created when one creates one activity and the activity type is not available in the current list)
 ```
 curl http://127.0.0.1:8000/api/activity-types/
 ``` 
 
-And of course when fetching one activity randomly, you can combine filters as such
+And of course when fetching one activity randomly, you can combine filters as such (filters implemented are type, price and participants)
 ```
 curl http://127.0.0.1:8000/api/random-activity?price=0.2&type=diy
 ```
+
+## Improvements
+
+- Authenticate user
+- Dashboard of user accomplished activities, so that one can track the new skills one learn
+- Rating of activities by User
+- Smart activities suggestions by web app based on past user activities rating
