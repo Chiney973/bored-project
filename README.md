@@ -9,7 +9,7 @@ The project is based on http://www.boredapi.com/
 This project makes use of Django, DRF and VueJS.
 
 ## How to use
-Launch those commands to run project
+Launch these commands to run project
 
 ```
 python3 -m venv .venv
